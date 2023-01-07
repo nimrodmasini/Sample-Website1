@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>numbers</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="./images/coffee cup logo.png" id="logo" alt="Coffee cup logo">
-    <h3>Coffee Junkie</h3>
+    <div class="flex-container">
+        <img src="./images/coffee cup logo.png" id="logo" alt="coffee cup logo" width="50px" height="50px">
+    <h3 class="heading3">Coffee Junkie</h3>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="numbers.html">Numbers</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
+        <div class="subflex-container">
+            <div class="flex-item1"><li><a href="index.html">Home</a></li>
+            </div>
+            <div class="flex-item2"><li><a href="about.html">About</a></li></div>
+            <div class="flex-item3"><li><a href="numbers.html">Numbers</a></li></div>
+            <div class="flex-item4"><li><a href="contacts.html">Contacts</a></li></div> 
+        </div>   
     </ul>
-    <img src="./images/background.jpeg" alt="Background image" width="100%">
+    </div>
     <h2>Our Stores</h2>
     <table style="border: 2px solid black; border-spacing:25px;">
         <!-- city -->
@@ -47,7 +52,7 @@
     <br>
     <br>
     <br>
-    <p>copyright &copy;2019</p>
     <a href="#logo">Back To Top</a>
+    <p>copyright &copy;2023</p>
 </body>
 </html>
